@@ -93,7 +93,7 @@ const doc = new Document({
       namePara, titlePara, contactPara, linksPara,
 
       sectionHeading("Professional Summary"),
-      body("Full Stack Developer with 4+ years of experience building scalable web applications, REST APIs, admin dashboards, and operational platforms with Node.js, Laravel, React.js, MongoDB, and MySQL. Proven expertise in JWT/OAuth authentication, RBAC, payment gateway integration (Stripe, Moko Afrika), Firebase Cloud Messaging, and third-party API workflows. Since Jun 2026, after resigning from Shine Web Solutions in May 2026, working full-time as an Independent Developer with 6 published Chrome Extensions (Manifest V3), 2 Android apps live on Google Play, and 2 Windows automation tools, with end-to-end ownership from architecture to Store publishing."),
+      body("Full Stack Developer with 4+ years of experience building scalable web applications, REST APIs, admin dashboards, and operational platforms with Node.js, Laravel, React.js, MongoDB, and MySQL. Proven expertise in JWT/OAuth authentication, RBAC, payment gateway integration (Stripe, Moko Afrika), Firebase Cloud Messaging, and third-party API workflows. Since Jun 2026, after resigning from Shine Web Solutions in May 2026, working full-time as an Independent Developer directing AI coding assistants to design and build 6 published Chrome Extensions (Manifest V3), 2 Android apps live on Google Play, and 2 Windows automation tools, with full ownership of requirements, architecture, QA, and Store publishing."),
 
       sectionHeading("Technical Skills"),
       skillRow("Languages", "JavaScript, PHP, SQL, HTML5, CSS3"),
@@ -104,12 +104,13 @@ const doc = new Document({
       skillRow("Auth and Security", "JWT, OAuth 2.0, Role-Based Access Control (RBAC), SHA-256 Encryption, Secure API Authorization"),
       skillRow("Notifications and Payments", "Firebase Cloud Messaging (FCM), Stripe, Moko Afrika Payment Gateway, Wallet and Transaction Systems"),
       skillRow("Tools and Practices", "Git, Postman, Chrome DevTools, Google Play Console, Core Web Vitals, Agile Workflows"),
+      skillRow("AI-Directed Development", "Requirements Definition, Prompt Engineering, AI Code Generation and Review, Debugging AI Outputs, QA and Publishing"),
 
       sectionHeading("Professional Experience"),
       jobHeader("Independent Developer - Chrome Extensions and Android Apps", "Self-Employed", "Jun 2026 - Present"),
-      bullet("Full-time indie work after resignation: ", "Building and publishing own products after resigning from Shine Web Solutions in May 2026."),
-      bullet("Shipped and published: ", "6 Chrome Extensions live on Chrome Web Store, 2 Android apps live on Google Play, and 2 Windows automation tools."),
-      bullet("Ownership: ", "End-to-end development including Manifest V3 architecture, Play Store listings, updates, and user support."),
+      bullet("AI-directed development after resignation: ", "Building and publishing own products full-time after resigning from Shine Web Solutions in May 2026 by defining requirements and directing AI coding assistants on what to build and how to build it."),
+      bullet("Shipped and published: ", "6 Chrome Extensions live on Chrome Web Store, 2 Android apps live on Google Play, and 2 Windows automation tools, all implemented through AI-assisted workflows under my direction."),
+      bullet("Ownership and QA: ", "Owned product direction, architecture decisions, prompt workflows, code review, manual testing, Store listings, updates, and user support."),
       jobHeader("Full Stack Developer", "Shine Web Solutions", "Jun 2024 - May 2026"),
       bullet("REST APIs and Workflows: ", "Designed and shipped scalable REST APIs and operational workflows using Node.js, Express.js, and Laravel with MongoDB/MySQL backends."),
       bullet("Admin Dashboards: ", "Built React.js admin dashboards for operations management including user and role management, real-time monitoring, and reporting modules."),
@@ -125,7 +126,7 @@ const doc = new Document({
       bullet("Modules and Data: ", "Developed frontend modules, backend workflows, and database integrations for day-to-day business operations."),
 
       sectionHeading("Independent Products - Published Apps and Extensions"),
-      body("Built full-time after resigning from Shine Web Solutions in May 2026. Portfolio: https://edevsuraj.github.io/explore-our-apps-and-extensions/ - All extensions live on Chrome Web Store, apps live on Google Play."),
+      body("Built full-time after resigning from Shine Web Solutions in May 2026 through AI-directed development - I defined the requirements and guided AI coding assistants on what to build and how to build it. Portfolio: https://edevsuraj.github.io/explore-our-apps-and-extensions/ - All extensions live on Chrome Web Store, apps live on Google Play."),
       jobHeader("Chrome Extensions Developer", "Self-Employed / Indie", "Jun 2026 - Present"),
       bullet("Lock Website (Privacy): ", "Password-protect any site by domain with SHA-256 encryption, per-tab sessions, and smart subdomain matching."),
       bullet("Custom Tab Wallpaper (Customization): ", "Turns new tab into custom image and video wallpaper with uploads or remote URLs and persistent settings."),
