@@ -93,7 +93,7 @@ const doc = new Document({
       namePara, titlePara, contactPara, linksPara,
 
       sectionHeading("Professional Summary"),
-      body("Full Stack Developer with 4+ years of experience building scalable web applications, REST APIs, admin dashboards, and operational platforms with Node.js, Laravel, React.js, MongoDB, and MySQL. Proven expertise in JWT/OAuth authentication, RBAC, payment gateway integration (Stripe, Moko Afrika), Firebase Cloud Messaging, and third-party API workflows. Independent product developer with 6 published Chrome Extensions (Manifest V3), 2 Android apps live on Google Play, and 2 Windows automation tools, with end-to-end ownership from architecture to Store publishing."),
+      body("Full Stack Developer with 4+ years of experience building scalable web applications, REST APIs, admin dashboards, and operational platforms with Node.js, Laravel, React.js, MongoDB, and MySQL. Proven expertise in JWT/OAuth authentication, RBAC, payment gateway integration (Stripe, Moko Afrika), Firebase Cloud Messaging, and third-party API workflows. Since Jun 2026, after resigning from Shine Web Solutions in May 2026, working full-time as an Independent Developer with 6 published Chrome Extensions (Manifest V3), 2 Android apps live on Google Play, and 2 Windows automation tools, with end-to-end ownership from architecture to Store publishing."),
 
       sectionHeading("Technical Skills"),
       skillRow("Languages", "JavaScript, PHP, SQL, HTML5, CSS3"),
@@ -106,6 +106,10 @@ const doc = new Document({
       skillRow("Tools and Practices", "Git, Postman, Chrome DevTools, Google Play Console, Core Web Vitals, Agile Workflows"),
 
       sectionHeading("Professional Experience"),
+      jobHeader("Independent Developer - Chrome Extensions and Android Apps", "Self-Employed", "Jun 2026 - Present"),
+      bullet("Full-time indie work after resignation: ", "Building and publishing own products after resigning from Shine Web Solutions in May 2026."),
+      bullet("Shipped and published: ", "6 Chrome Extensions live on Chrome Web Store, 2 Android apps live on Google Play, and 2 Windows automation tools."),
+      bullet("Ownership: ", "End-to-end development including Manifest V3 architecture, Play Store listings, updates, and user support."),
       jobHeader("Full Stack Developer", "Shine Web Solutions", "Jun 2024 - May 2026"),
       bullet("REST APIs and Workflows: ", "Designed and shipped scalable REST APIs and operational workflows using Node.js, Express.js, and Laravel with MongoDB/MySQL backends."),
       bullet("Admin Dashboards: ", "Built React.js admin dashboards for operations management including user and role management, real-time monitoring, and reporting modules."),
@@ -121,8 +125,8 @@ const doc = new Document({
       bullet("Modules and Data: ", "Developed frontend modules, backend workflows, and database integrations for day-to-day business operations."),
 
       sectionHeading("Independent Products - Published Apps and Extensions"),
-      body("Portfolio: https://edevsuraj.github.io/explore-our-apps-and-extensions/ - All extensions live on Chrome Web Store, apps live on Google Play."),
-      jobHeader("Chrome Extensions Developer", "Self-Employed / Indie", "2024 - Present"),
+      body("Built full-time after resigning from Shine Web Solutions in May 2026. Portfolio: https://edevsuraj.github.io/explore-our-apps-and-extensions/ - All extensions live on Chrome Web Store, apps live on Google Play."),
+      jobHeader("Chrome Extensions Developer", "Self-Employed / Indie", "Jun 2026 - Present"),
       bullet("Lock Website (Privacy): ", "Password-protect any site by domain with SHA-256 encryption, per-tab sessions, and smart subdomain matching."),
       bullet("Custom Tab Wallpaper (Customization): ", "Turns new tab into custom image and video wallpaper with uploads or remote URLs and persistent settings."),
       bullet("SiteSwift - Website Speed Audit (DevTools): ", "One-click audit for slow resources, Core Web Vitals issues, and prioritized performance and SEO fixes."),
@@ -130,11 +134,11 @@ const doc = new Document({
       bullet("Remindy (Productivity): ", "Reminders with new-tab countdowns and browser notifications for time-based task tracking."),
       bullet("Yogi Adityanath New Tab (Education): ", "Inspirational new-tab experience with quotes in English and Hindi."),
 
-      jobHeader("Android App Developer", "Self-Employed / Indie", "2024 - Present"),
+      jobHeader("Android App Developer", "Self-Employed / Indie", "Jun 2026 - Present"),
       bullet("Mathify: Maths Practice (Education): ", "Math practice app for kids and students with addition, subtraction, multiplication, division, quizzes, and progress tracking. Live on Google Play."),
       bullet("English Set Go (Education): ", "Learn English grammar via Hindi with all 12 tenses, 11,000+ verbs, 8,000+ phrases, and multiple practice formats. Live on Google Play."),
 
-      jobHeader("Windows Tools Developer", "Self-Employed / Indie", "2025 - Present"),
+      jobHeader("Windows Tools Developer", "Self-Employed / Indie", "Jun 2026 - Present"),
       bullet("PC Deep Cleaner: ", "1-click batch optimizer with live CMD animation that cleans temp, cache, and junk across 7 zones. No install required."),
       bullet("UserCleanup: ", "1-click Windows account remover with popup picker that deletes profile folder and registry leftovers. No install required."),
 
