@@ -60,7 +60,7 @@ function bullet(boldPart, rest) {
     spacing: { after: 90, line: LINE },
     indent: { left: 360 },
     children: [
-      new TextRun({ text: boldPart, bold: true, size: 19, font: "Calibri", color: BLUE }),
+      new TextRun({ text: boldPart, bold: true, size: 19, font: "Calibri" }),
       new TextRun({ text: rest, size: 19, font: "Calibri" }),
     ],
   });
@@ -71,7 +71,7 @@ function jobHeader(role, company, dates) {
   const line = dates ? `${role}, ${company} | ${dates}` : `${role} | ${company}`;
   return new Paragraph({
     spacing: { before: 190, after: 90, line: LINE },
-    children: [new TextRun({ text: line, bold: true, size: 20, font: "Calibri", color: BLUE })],
+    children: [new TextRun({ text: line, bold: true, size: 20, font: "Calibri" })],
   });
 }
 
