@@ -13,29 +13,29 @@ const GRAY = "#4A5568";
 const BLACK = "#111111";
 
 function header(text) {
-  doc.moveDown(0.7);
-  doc.font("Helvetica-Bold").fontSize(10.5).fillColor(BLUE).text(text.toUpperCase(), { lineGap: 2 });
-  doc.moveTo(doc.page.margins.left, doc.y + 3).lineTo(doc.page.width - doc.page.margins.right, doc.y + 3).strokeColor(ACCENT).lineWidth(1).stroke();
-  doc.moveDown(0.5);
+  doc.moveDown(0.75);
+  doc.font("Helvetica-Bold").fontSize(10.8).fillColor(BLUE).text(text.toUpperCase(), { lineGap: 2 });
+  doc.moveTo(doc.page.margins.left, doc.y + 4).lineTo(doc.page.width - doc.page.margins.right, doc.y + 4).strokeColor(ACCENT).lineWidth(1).stroke();
+  doc.moveDown(0.52);
 }
 function body(t) {
-  doc.font("Helvetica").fontSize(9.2).fillColor(BLACK).text(t, { align: "left", lineGap: 4 });
-  doc.moveDown(0.5);
+  doc.font("Helvetica").fontSize(9.3).fillColor(BLACK).text(t, { align: "left", lineGap: 4.5 });
+  doc.moveDown(0.52);
 }
 function bullet(bold, rest) {
-  doc.font("Helvetica").fontSize(9.2).fillColor(BLACK).text(`\u2022  ${bold}${rest}`, { indent: 14, lineGap: 3 });
-  doc.moveDown(0.32);
+  doc.font("Helvetica").fontSize(9.3).fillColor(BLACK).text(`\u2022  ${bold}${rest}`, { indent: 14, lineGap: 3.5 });
+  doc.moveDown(0.36);
 }
 function job(role, company, dates) {
   const line = dates ? `${role}, ${company} | ${dates}` : `${role} | ${company}`;
-  doc.moveDown(0.42);
-  doc.font("Helvetica-Bold").fontSize(9.5).fillColor(BLACK).text(line, { lineGap: 2 });
-  doc.moveDown(0.22);
+  doc.moveDown(0.46);
+  doc.font("Helvetica-Bold").fontSize(9.6).fillColor(BLACK).text(line, { lineGap: 2 });
+  doc.moveDown(0.25);
 }
 function skill(label, value) {
-  doc.font("Helvetica-Bold").fontSize(9.2).fillColor(BLACK).text(label + ": ", { continued: true, lineGap: 3 });
-  doc.font("Helvetica").fontSize(9.2).fillColor(BLACK).text(value, { lineGap: 3 });
-  doc.moveDown(0.32);
+  doc.font("Helvetica-Bold").fontSize(9.3).fillColor(BLACK).text(label + ": ", { continued: true, lineGap: 3.5 });
+  doc.font("Helvetica").fontSize(9.3).fillColor(BLACK).text(value, { lineGap: 3.5 });
+  doc.moveDown(0.36);
 }
 
 // Header - airy, centered, plain text links
