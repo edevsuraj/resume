@@ -49,7 +49,7 @@ doc.font("Helvetica").fontSize(8.5).fillColor(GRAY).text("LinkedIn: https://www.
 doc.font("Helvetica").fontSize(8.5).fillColor(GRAY).text("Portfolio: https://edevsuraj.github.io/explore-our-apps-and-extensions/", { align: "center", lineGap: 2 });
 
 header("Professional Summary");
-body("Full Stack Developer with 4+ years of experience building scalable web applications, REST APIs, admin dashboards, and operational platforms with Node.js, Laravel, React.js, MongoDB, and MySQL. Proven expertise in JWT/OAuth authentication, RBAC, payment gateway integration (Stripe, Moko Afrika), Firebase Cloud Messaging, and third-party API workflows. Since Jun 2026, after resigning from Shine Web Solutions in May 2026, working full-time as an Independent Developer directing AI coding assistants to design and build 6 published Chrome Extensions (Manifest V3), 2 Android apps live on Google Play, and 2 Windows automation tools, with full ownership of requirements, architecture, QA, and Store publishing.");
+body("Full Stack Developer with 4+ years of experience building scalable web applications, REST APIs, admin dashboards, and operational platforms with Node.js, Laravel, React.js, MongoDB, and MySQL. Proven expertise in JWT/OAuth, RBAC, Stripe and Moko Afrika payments, Firebase Cloud Messaging, and third-party API workflows. Since Jun 2026, after resigning from Shine Web Solutions in May 2026, working full-time as an Independent Developer directing AI coding assistants (OpenCode, ChatGPT Codex, GitHub Copilot) to design and ship 6 Chrome Extensions with 500+ installs on top app and 200+ installs each on others with majority USA users, plus 2 Android apps on Google Play and 2 Windows tools. Full ownership of requirements, architecture, QA, and Store publishing.");
 
 header("Technical Skills");
 skill("Languages", "JavaScript, PHP, SQL, HTML5, CSS3");
@@ -60,13 +60,13 @@ skill("Databases", "MongoDB, MySQL - Schema Design, Indexing, Aggregations, Quer
 skill("Auth and Security", "JWT, OAuth 2.0, Role-Based Access Control (RBAC), SHA-256 Encryption, Secure API Authorization");
 skill("Notifications and Payments", "Firebase Cloud Messaging (FCM), Stripe, Moko Afrika Payment Gateway, Wallet and Transaction Systems");
 skill("Tools and Practices", "Git, Postman, Chrome DevTools, Google Play Console, Core Web Vitals, Agile Workflows");
-skill("AI-Directed Development", "Requirements Definition, Prompt Engineering, AI Code Generation and Review, Debugging AI Outputs, QA and Publishing");
+skill("AI Tools and Workflow", "OpenCode, ChatGPT Codex, GitHub Copilot - Requirements Definition, Prompt Engineering, AI Code Review, Debugging AI Outputs, QA and Publishing");
 
 header("Professional Experience");
 job("Independent Developer - Chrome Extensions and Android Apps", "Self-Employed", "Jun 2026 - Present");
-bullet("AI-directed development after resignation: ", "Building and publishing own products full-time after resigning from Shine Web Solutions in May 2026 by defining requirements and directing AI coding assistants on what to build and how to build it.");
-bullet("Shipped and published: ", "6 Chrome Extensions live on Chrome Web Store, 2 Android apps live on Google Play, and 2 Windows automation tools, all implemented through AI-assisted workflows under my direction.");
-bullet("Ownership and QA: ", "Owned product direction, architecture decisions, prompt workflows, code review, manual testing, Store listings, updates, and user support.");
+bullet("AI-directed development after resignation: ", "Building and publishing own products full-time after resigning from Shine Web Solutions in May 2026 by defining requirements and directing OpenCode, ChatGPT Codex, and GitHub Copilot on what to build and how to build it.");
+bullet("Traction: ", "6 Chrome Extensions live with 500+ installs on Lock Website and 200+ installs each on other extensions, majority users from USA. 2 Android apps live on Google Play plus 2 Windows automation tools.");
+bullet("Ownership and QA: ", "Owned product direction, Manifest V3 architecture, prompt workflows, code review, manual testing, Store listings, updates, and user support.");
 job("Full Stack Developer", "Shine Web Solutions", "Jun 2024 - May 2026");
 bullet("REST APIs and Workflows: ", "Designed scalable REST APIs and operational workflows using Node.js, Express.js, Laravel with MongoDB/MySQL.");
 bullet("Admin Dashboards: ", "Built React.js dashboards for ops management - roles, real-time monitoring, reporting.");
@@ -82,14 +82,14 @@ bullet("Web Platforms: ", "Business websites and operational systems in Laravel,
 bullet("Modules and Data: ", "Frontend modules, backend workflows, database integrations.");
 
 header("Independent Products - Published Apps and Extensions");
-body("Built full-time after resigning from Shine Web Solutions in May 2026 through AI-directed development - I defined the requirements and guided AI coding assistants on what to build and how to build it. Portfolio: https://edevsuraj.github.io/explore-our-apps-and-extensions/ - Extensions live on Chrome Web Store, apps on Google Play.");
+body("Built full-time after resigning from Shine Web Solutions in May 2026 through AI-directed development using OpenCode, ChatGPT Codex, and GitHub Copilot - I defined requirements and guided AI on what and how to build. Portfolio: https://edevsuraj.github.io/explore-our-apps-and-extensions/");
 job("Chrome Extensions Developer", "Self-Employed / Indie", "Jun 2026 - Present");
-bullet("Lock Website (Privacy): ", "Password-protect sites by domain, SHA-256, per-tab sessions, subdomain matching.");
-bullet("Custom Tab Wallpaper: ", "Custom image/video new-tab wallpaper; uploads or remote URLs.");
-bullet("SiteSwift - Speed Audit (DevTools): ", "One-click audit for slow resources, Core Web Vitals, SEO fixes.");
-bullet("Indian Fake Filler (DevTools): ", "Realistic Indian test data, saved prefs, smart randoms for QA.");
-bullet("Remindy (Productivity): ", "Reminders with new-tab countdowns + notifications.");
-bullet("Yogi Adityanath New Tab: ", "Inspirational new-tab with EN/HI quotes.");
+bullet("Lock Website - 500+ installs, USA majority: ", "Password-protect sites by domain, SHA-256, per-tab sessions, subdomain matching.");
+bullet("Custom Tab Wallpaper - 200+ installs: ", "Custom image/video new-tab wallpaper; uploads or remote URLs.");
+bullet("SiteSwift Speed Audit - 200+ installs: ", "One-click audit for slow resources, Core Web Vitals, SEO fixes.");
+bullet("Indian Fake Filler - 200+ installs: ", "Realistic Indian test data, saved prefs, smart randoms for QA.");
+bullet("Remindy - 200+ installs: ", "Reminders with new-tab countdowns + notifications.");
+bullet("Yogi Adityanath New Tab - 200+ installs: ", "Inspirational new-tab with EN/HI quotes.");
 
 job("Android App Developer", "Self-Employed / Indie", "Jun 2026 - Present");
 bullet("Mathify: Maths Practice: ", "Addition, subtraction, multiplication, division, quizzes, progress tracking. Live on Play.");
