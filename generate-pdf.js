@@ -23,13 +23,15 @@ function body(t) {
   doc.moveDown(0.52);
 }
 function bullet(bold, rest) {
-  doc.font("Helvetica").fontSize(9.3).fillColor(BLACK).text(`\u2022  ${bold}${rest}`, { indent: 14, lineGap: 3.5 });
+  doc.font("Helvetica").fontSize(9.3).fillColor(BLACK).text("\u2022  ", { indent: 14, lineGap: 3.5, continued: true });
+  doc.font("Helvetica-Bold").fontSize(9.3).fillColor(BLUE).text(bold, { lineGap: 3.5, continued: true });
+  doc.font("Helvetica").fontSize(9.3).fillColor(BLACK).text(rest, { lineGap: 3.5 });
   doc.moveDown(0.36);
 }
 function job(role, company, dates) {
   const line = dates ? `${role}, ${company} | ${dates}` : `${role} | ${company}`;
   doc.moveDown(0.46);
-  doc.font("Helvetica-Bold").fontSize(9.6).fillColor(BLACK).text(line, { lineGap: 2 });
+  doc.font("Helvetica-Bold").fontSize(9.6).fillColor(BLUE).text(line, { lineGap: 2 });
   doc.moveDown(0.25);
 }
 function skill(label, value) {
