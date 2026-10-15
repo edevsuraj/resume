@@ -88,7 +88,8 @@ bullet("Remindy - 200+ installs: ", "Reminders with new-tab countdowns + notific
 bullet("Yogi Adityanath New Tab - 200+ installs: ", "Inspirational new-tab with EN/HI quotes.");
 
 job("Android Apps - Live on Google Play", "Self-Employed / Indie", "Jun 2026 - Present");
-bullet("Mathify + English Set Go: ", "Maths practice with quizzes and tracking; English via Hindi with 12 tenses, 11k verbs, 8k phrases.");
+bullet("Mathify - Maths Practice: ", "Maths practice app with quizzes and progress tracking. Live on Google Play.");
+bullet("English Set Go - Learn English via Hindi: ", "All 12 tenses, 11,000+ verbs, 8,000+ phrases. Live on Google Play.");
 job("Windows Tools", "Self-Employed / Indie", "Jun 2026 - Present");
 bullet("PC Deep Cleaner + UserCleanup: ", "1-click optimizer for 7-zone clean and 1-click account remover. No install.");
 
