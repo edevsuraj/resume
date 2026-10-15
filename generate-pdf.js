@@ -13,29 +13,29 @@ const GRAY = "#4A5568";
 const BLACK = "#111111";
 
 function header(text) {
-  doc.moveDown(0.9);
-  doc.font("Helvetica-Bold").fontSize(11).fillColor(BLUE).text(text.toUpperCase(), { lineGap: 2 });
-  doc.moveTo(doc.page.margins.left, doc.y + 4).lineTo(doc.page.width - doc.page.margins.right, doc.y + 4).strokeColor(ACCENT).lineWidth(1).stroke();
-  doc.moveDown(0.6);
+  doc.moveDown(0.5);
+  doc.font("Helvetica-Bold").fontSize(10.5).fillColor(BLUE).text(text.toUpperCase(), { lineGap: 1 });
+  doc.moveTo(doc.page.margins.left, doc.y + 3).lineTo(doc.page.width - doc.page.margins.right, doc.y + 3).strokeColor(ACCENT).lineWidth(1).stroke();
+  doc.moveDown(0.35);
 }
 function body(t) {
-  doc.font("Helvetica").fontSize(9.5).fillColor(BLACK).text(t, { align: "left", lineGap: 5 });
-  doc.moveDown(0.6);
+  doc.font("Helvetica").fontSize(9).fillColor(BLACK).text(t, { align: "left", lineGap: 3 });
+  doc.moveDown(0.35);
 }
 function bullet(bold, rest) {
-  doc.font("Helvetica").fontSize(9.5).fillColor(BLACK).text(`\u2022  ${bold}${rest}`, { indent: 15, lineGap: 4 });
-  doc.moveDown(0.4);
+  doc.font("Helvetica").fontSize(9).fillColor(BLACK).text(`\u2022  ${bold}${rest}`, { indent: 12, lineGap: 2 });
+  doc.moveDown(0.2);
 }
 function job(role, company, dates) {
   const line = dates ? `${role}, ${company} | ${dates}` : `${role} | ${company}`;
-  doc.moveDown(0.5);
-  doc.font("Helvetica-Bold").fontSize(10).fillColor(BLACK).text(line, { lineGap: 3 });
-  doc.moveDown(0.25);
+  doc.moveDown(0.3);
+  doc.font("Helvetica-Bold").fontSize(9.5).fillColor(BLACK).text(line, { lineGap: 1 });
+  doc.moveDown(0.15);
 }
 function skill(label, value) {
-  doc.font("Helvetica-Bold").fontSize(9.5).fillColor(BLACK).text(label + ": ", { continued: true, lineGap: 4 });
-  doc.font("Helvetica").fontSize(9.5).fillColor(BLACK).text(value, { lineGap: 4 });
-  doc.moveDown(0.4);
+  doc.font("Helvetica-Bold").fontSize(9).fillColor(BLACK).text(label + ": ", { continued: true, lineGap: 2 });
+  doc.font("Helvetica").fontSize(9).fillColor(BLACK).text(value, { lineGap: 2 });
+  doc.moveDown(0.2);
 }
 
 // Header - airy, centered, plain text links
@@ -68,18 +68,12 @@ bullet("AI-directed development after resignation: ", "Building and publishing o
 bullet("Traction: ", "6 Chrome Extensions live with 500+ installs on Lock Website and 200+ installs each on other extensions, majority users from USA. 2 Android apps live on Google Play plus 2 Windows automation tools.");
 bullet("Ownership and QA: ", "Owned product direction, Manifest V3 architecture, prompt workflows, code review, manual testing, Store listings, updates, and user support.");
 job("Full Stack Developer", "Shine Web Solutions", "Jun 2024 - May 2026");
-bullet("REST APIs and Workflows: ", "Designed scalable REST APIs and operational workflows using Node.js, Express.js, Laravel with MongoDB/MySQL.");
-bullet("Admin Dashboards: ", "Built React.js dashboards for ops management - roles, real-time monitoring, reporting.");
-bullet("Auth, Payments and Integrations: ", "JWT + OAuth, RBAC, Stripe / Moko Afrika flows, FCM, third-party APIs.");
-bullet("Quality and Delivery: ", "Improved reliability and performance via optimized queries, reusable components, Postman-tested endpoints.");
-
+bullet("REST APIs and Dashboards: ", "Shipped scalable REST APIs with Node, Express, Laravel and React admin dashboards for ops, roles, and monitoring.");
+bullet("Auth, Payments and Integrations: ", "JWT/OAuth, RBAC, Stripe / Moko Afrika flows, FCM, third-party APIs with Postman-tested endpoints.");
 job("PHP Developer", "Logibloq IT Services", "Dec 2023 - Jun 2024");
-bullet("Product Development: ", "Websites, admin panels, backend systems in CodeIgniter and Core PHP.");
-bullet("Full-stack Integration: ", "Frontend-backend integrations, auth/sessions, MySQL CRUD modules.");
-
+bullet("", "Websites, admin panels, backend systems in CodeIgniter/Core PHP with MySQL CRUD and integrations.");
 job("Web Developer", "Kutumbh Care Pvt. Ltd.", "Mar 2022 - Dec 2023");
-bullet("Web Platforms: ", "Business websites and operational systems in Laravel, JS, HTML, CSS, Bootstrap.");
-bullet("Modules and Data: ", "Frontend modules, backend workflows, database integrations.");
+bullet("", "Business websites and systems in Laravel, JS, HTML, CSS, Bootstrap with workflows and DB integrations.");
 
 header("Independent Products - Published Apps and Extensions");
 body("Built full-time after resigning from Shine Web Solutions in May 2026 through AI-directed development using OpenCode, ChatGPT Codex, and GitHub Copilot - I defined requirements and guided AI on what and how to build. Portfolio: https://edevsuraj.github.io/explore-our-apps-and-extensions/");
@@ -91,32 +85,23 @@ bullet("Indian Fake Filler - 200+ installs: ", "Realistic Indian test data, save
 bullet("Remindy - 200+ installs: ", "Reminders with new-tab countdowns + notifications.");
 bullet("Yogi Adityanath New Tab - 200+ installs: ", "Inspirational new-tab with EN/HI quotes.");
 
-job("Android App Developer", "Self-Employed / Indie", "Jun 2026 - Present");
-bullet("Mathify: Maths Practice: ", "Addition, subtraction, multiplication, division, quizzes, progress tracking. Live on Play.");
-bullet("English Set Go: ", "English via Hindi - 12 tenses, 11,000+ verbs, 8,000+ phrases. Live on Play.");
-
-job("Windows Tools Developer", "Self-Employed / Indie", "Jun 2026 - Present");
-bullet("PC Deep Cleaner: ", "1-click batch optimizer with CMD animation; 7-zone temp/cache/junk clean. No install.");
-bullet("UserCleanup: ", "1-click account remover; deletes profile + registry leftovers.");
+job("Android Apps - Live on Google Play", "Self-Employed / Indie", "Jun 2026 - Present");
+bullet("Mathify + English Set Go: ", "Maths practice with quizzes and tracking; English via Hindi with 12 tenses, 11k verbs, 8k phrases.");
+job("Windows Tools", "Self-Employed / Indie", "Jun 2026 - Present");
+bullet("PC Deep Cleaner + UserCleanup: ", "1-click optimizer for 7-zone clean and 1-click account remover. No install.");
 
 header("Selected Professional Projects");
-job("Dispatcher Management System", "Node.js, Express, React, MongoDB, FCM", "");
-bullet("", "REST APIs + React admin for calls, zones, units; live monitoring; admin terminate-call; JWT/OAuth + FCM.");
-job("Pet and Fitness Activity Platform", "Node.js, MongoDB, FCM", "");
-bullet("", "Activity tracking, rewards, challenges, leaderboards; multi-pet profiles; global challenges; FCM pushes.");
-job("School Activity and Task Management", "Laravel, React, MySQL", "");
-bullet("", "Class-wise activities, participation, submissions/approvals, scoring, achievement points.");
-job("Ride Management Platform", "Node.js, MongoDB, Moko Afrika", "");
-bullet("", "Ride ops, vehicle mgmt, destination/airport/hotel pricing, wallet, bookings, transactions.");
-job("Mentorship and Learning Platform", "Laravel, React, MySQL, Stripe", "");
-bullet("", "Booking, scheduling, cancellation, payouts, Stripe; admin mentor approvals and course monitoring.");
+bullet("Dispatcher System (Node, React, Mongo, FCM): ", "REST APIs + React admin for calls, zones, units with live monitoring.");
+bullet("Pet and Fitness Platform (Node, Mongo, FCM): ", "Tracking, rewards, challenges, leaderboards, multi-pet profiles.");
+bullet("School Management (Laravel, React, MySQL): ", "Activities, submissions, approvals, scoring, achievement points.");
+bullet("Ride Management (Node, Mongo, Moko Afrika): ", "Ride ops, pricing, wallet, bookings, transactions.");
+bullet("Mentorship Platform (Laravel, React, Stripe): ", "Booking, payouts, Stripe, mentor approvals.");
 
 header("Education");
-body("Bachelor of Computer Applications (BCA), 2019 - 2022. Foundation in programming, DBMS, web tech, software engineering.");
+body("Bachelor of Computer Applications (BCA), 2019 - 2022.");
 
 header("Links");
-bullet("Portfolio: ", "https://edevsuraj.github.io/explore-our-apps-and-extensions/");
-bullet("Chrome Web Store: ", "6 live extensions | Google Play: Mathify, English Set Go");
+bullet("Portfolio: ", "https://edevsuraj.github.io/explore-our-apps-and-extensions/ | Store: 6 extensions | Play: Mathify, English Set Go");
 bullet("Contact: ", "+91 8112773132 | edev.suraj@gmail.com | Noida, Sector 62, UP");
 
 doc.end();
