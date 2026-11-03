@@ -43,69 +43,60 @@ function skill(label, value) {
 // Header - airy, centered, plain text links
 doc.font("Helvetica-Bold").fontSize(23).fillColor(BLUE).text("SURAJ CHAUHAN", { align: "center", lineGap: 4 });
 doc.moveDown(0.25);
-doc.font("Helvetica-Bold").fontSize(9.5).fillColor(ACCENT).text("Full Stack Developer  |  Node.js  |  Laravel  |  React.js  |  Chrome Extensions  |  Android Apps", { align: "center", lineGap: 3 });
+doc.font("Helvetica-Bold").fontSize(9.5).fillColor(ACCENT).text("Full Stack Developer  |  Node.js  |  Laravel  |  React.js  |  REST APIs  |  MongoDB  |  MySQL", { align: "center", lineGap: 3 });
 doc.moveDown(0.4);
 doc.font("Helvetica").fontSize(9).fillColor(BLACK).text("Noida, Sector 62, Uttar Pradesh  |  +91 8112773132  |  edev.suraj@gmail.com", { align: "center", lineGap: 3 });
 doc.moveDown(0.2);
 doc.font("Helvetica").fontSize(8.5).fillColor(GRAY).text("LinkedIn: https://www.linkedin.com/in/suraj-chauhan-google/", { align: "center", lineGap: 2 });
 doc.font("Helvetica").fontSize(8.5).fillColor(GRAY).text("Portfolio: https://edevsuraj.github.io/explore-our-apps-and-extensions/", { align: "center", lineGap: 2 });
+doc.font("Helvetica").fontSize(8.5).fillColor(GRAY).text("Chrome Web Store: 6 live extensions  |  Google Play: Mathify, English Set Go", { align: "center", lineGap: 2 });
 
 header("Professional Summary");
-body("Full Stack Developer with 4+ years of experience building scalable web applications, REST APIs, admin dashboards, and operational platforms with Node.js, Laravel, React.js, MongoDB, and MySQL. Proven expertise in JWT/OAuth, RBAC, Stripe and Moko Afrika payments, Firebase Cloud Messaging, and third-party API workflows. Since Jun 2026, after resigning from Shine Web Solutions in May 2026, working full-time as an Independent Developer directing AI coding assistants (OpenCode, ChatGPT Codex, GitHub Copilot) to design and ship 6 Chrome Extensions with 500+ installs on top app and 200+ installs each on others with majority USA users, plus 2 Android apps on Google Play and 2 Windows tools. Full ownership of requirements, architecture, QA, and Store publishing.");
-
-header("Technical Skills");
-skill("Languages", "JavaScript, PHP, SQL, HTML5, CSS3");
-skill("Frontend", "React.js, Bootstrap, Responsive UI, Chrome Extension UI (Manifest V3, Content Scripts, Service Workers)");
-skill("Backend", "Node.js, Express.js, Laravel, CodeIgniter, Core PHP, REST API Design, MVC Architecture");
-skill("Mobile, Extensions and Tools", "Android Apps (Google Play), Chrome Web Store (6 Live Extensions), Windows Batch Automation, PWA Concepts");
-skill("Databases", "MongoDB, MySQL - Schema Design, Indexing, Aggregations, Query Optimization");
-skill("Auth and Security", "JWT, OAuth 2.0, Role-Based Access Control (RBAC), SHA-256 Encryption, Secure API Authorization");
-skill("Notifications and Payments", "Firebase Cloud Messaging (FCM), Stripe, Moko Afrika Payment Gateway, Wallet and Transaction Systems");
-skill("Tools and Practices", "Git, Postman, Chrome DevTools, Google Play Console, Core Web Vitals, Agile Workflows");
-skill("AI Tools and Workflow", "OpenCode, ChatGPT Codex, GitHub Copilot - Requirements Definition, Prompt Engineering, AI Code Review, Debugging AI Outputs, QA and Publishing");
+body("Full Stack Developer with 4+ years of experience building scalable web applications, REST APIs, admin dashboards, and operational platforms using Node.js, Express.js, Laravel, React.js, MongoDB, and MySQL. Experienced in JWT/OAuth authentication, RBAC, Stripe and Moko Afrika payment integrations, Firebase Cloud Messaging, and third-party API workflows. Strong ownership of features end to end, from requirements and database design through implementation, API testing, release, and production support. Since Jun 2026, has independently shipped 6 Chrome extensions (500+ installs on the flagship product, 200+ each on the others), 2 Android apps on Google Play, and 2 Windows tools, using AI-assisted development to accelerate delivery.");
 
 header("Professional Experience");
-job("Independent Developer - Chrome Extensions and Android Apps", "Self-Employed", "Jun 2026 - Present");
-bullet("AI-directed development after resignation: ", "Building and publishing own products full-time after resigning from Shine Web Solutions in May 2026 by defining requirements and directing OpenCode, ChatGPT Codex, and GitHub Copilot on what to build and how to build it.");
-bullet("Traction: ", "6 Chrome Extensions live with 500+ installs on Lock Website and 200+ installs each on other extensions, majority users from USA. 2 Android apps live on Google Play plus 2 Windows automation tools.");
-bullet("Ownership and QA: ", "Owned product direction, Manifest V3 architecture, prompt workflows, code review, manual testing, Store listings, updates, and user support.");
 job("Full Stack Developer", "Shine Web Solutions", "Jun 2024 - May 2026");
-bullet("REST APIs and Dashboards: ", "Shipped scalable REST APIs with Node, Express, Laravel and React admin dashboards for ops, roles, and monitoring.");
-bullet("Auth, Payments and Integrations: ", "JWT/OAuth, RBAC, Stripe / Moko Afrika flows, FCM, third-party APIs with Postman-tested endpoints.");
+bullet("REST APIs and Dashboards: ", "Delivered scalable REST APIs and React.js admin dashboards for operations, roles, and real-time monitoring using Node.js, Express.js, Laravel, MongoDB, and MySQL.");
+bullet("Auth, Payments and Integrations: ", "Implemented JWT/OAuth authentication, role-based access control (RBAC), Stripe and Moko Afrika payment flows, FCM notifications, and third-party API integrations; validated endpoints with Postman.");
+bullet("Backend and Data Design: ", "Designed reusable backend modules and database schemas to support maintainable feature delivery and evolving business workflows.");
 job("PHP Developer", "Logibloq IT Services", "Dec 2023 - Jun 2024");
-bullet("", "Websites, admin panels, backend systems in CodeIgniter/Core PHP with MySQL CRUD and integrations.");
+bullet("Web and Admin Systems: ", "Developed business websites, admin panels, and backend systems using CodeIgniter, Core PHP, and MySQL.");
+bullet("Workflow Integrations: ", "Built CRUD workflows and frontend-backend integrations to support daily operations and data management.");
 job("Web Developer", "Kutumbh Care Pvt. Ltd.", "Mar 2022 - Dec 2023");
-bullet("", "Business websites and systems in Laravel, JS, HTML, CSS, Bootstrap with workflows and DB integrations.");
+bullet("Business Websites: ", "Developed business websites and operational systems using Laravel, JavaScript, HTML, CSS, and Bootstrap.");
+bullet("Database Integration: ", "Integrated backend workflows and databases to support service operations and internal reporting.");
+job("Independent Developer", "Self-Employed", "Jun 2026 - Present");
+bullet("Product Delivery: ", "Designed, built, and published 6 Chrome extensions (500+ installs on the flagship product, 200+ each on the others), 2 Android apps on Google Play, and 2 Windows automation tools.");
+bullet("End-to-End Ownership: ", "Own the full product lifecycle: requirements, architecture (Manifest V3), implementation, QA, store publishing, updates, and user support.");
+bullet("AI-Assisted Development: ", "Use AI coding assistants (OpenCode, ChatGPT Codex, GitHub Copilot) to accelerate development, code review, debugging, and testing while retaining ownership of architecture and quality.");
 
-header("Independent Products - Published Apps and Extensions");
-body("Built full-time after resigning from Shine Web Solutions in May 2026 through AI-directed development using OpenCode, ChatGPT Codex, and GitHub Copilot - I defined requirements and guided AI on what and how to build. Portfolio: https://edevsuraj.github.io/explore-our-apps-and-extensions/");
-job("Chrome Extensions Developer", "Self-Employed / Indie", "Jun 2026 - Present");
-bullet("Lock Website - 500+ installs, USA majority: ", "Password-protect sites by domain, SHA-256, per-tab sessions, subdomain matching.");
-bullet("Custom Tab Wallpaper - 200+ installs: ", "Custom image/video new-tab wallpaper; uploads or remote URLs.");
-bullet("SiteSwift Speed Audit - 200+ installs: ", "One-click audit for slow resources, Core Web Vitals, SEO fixes.");
-bullet("Indian Fake Filler - 200+ installs: ", "Realistic Indian test data, saved prefs, smart randoms for QA.");
-bullet("Remindy - 200+ installs: ", "Reminders with new-tab countdowns + notifications.");
-bullet("Yogi Adityanath New Tab - 200+ installs: ", "Inspirational new-tab with EN/HI quotes.");
-
-job("Android Apps - Live on Google Play", "Self-Employed / Indie", "Jun 2026 - Present");
-bullet("Mathify - Maths Practice: ", "Maths practice app with quizzes and progress tracking. Live on Google Play.");
-bullet("English Set Go - Learn English via Hindi: ", "All 12 tenses, 11,000+ verbs, 8,000+ phrases. Live on Google Play.");
-job("Windows Tools", "Self-Employed / Indie", "Jun 2026 - Present");
-bullet("PC Deep Cleaner + UserCleanup: ", "1-click optimizer for 7-zone clean and 1-click account remover. No install.");
+doc.addPage();
+header("Technical Skills");
+skill("Languages", "JavaScript (ES6+), PHP, SQL, HTML5, CSS3");
+skill("Backend", "Node.js, Express.js, Laravel, CodeIgniter, Core PHP, REST API Design, MVC Architecture");
+skill("Frontend", "React.js, Bootstrap, Responsive UI, Chrome Extension UI (Manifest V3, Content Scripts, Service Workers)");
+skill("Databases", "MongoDB, MySQL - Schema Design, Indexing, Aggregations, Query Optimization");
+skill("Authentication and Security", "JWT, OAuth 2.0, Role-Based Access Control (RBAC), SHA-256 Encryption, Secure API Authorization");
+skill("Payments and Messaging", "Stripe, Moko Afrika Payment Gateway, Wallet and Transaction Systems, Firebase Cloud Messaging (FCM)");
+skill("Mobile and Desktop", "Android Apps (Google Play), Chrome Web Store Publishing, Windows Batch Automation, PWA Concepts");
+skill("Tools and Practices", "Git, Postman, Chrome DevTools, Google Play Console, Core Web Vitals, Agile Workflows, Manual QA");
+skill("AI-Assisted Development", "OpenCode, ChatGPT Codex, GitHub Copilot - Requirements Definition, Prompt Engineering, Code Review, Debugging, QA and Publishing");
 
 header("Selected Professional Projects");
-bullet("Dispatcher System (Node, React, Mongo, FCM): ", "REST APIs + React admin for calls, zones, units with live monitoring.");
-bullet("Pet and Fitness Platform (Node, Mongo, FCM): ", "Tracking, rewards, challenges, leaderboards, multi-pet profiles.");
-bullet("School Management (Laravel, React, MySQL): ", "Activities, submissions, approvals, scoring, achievement points.");
-bullet("Ride Management (Node, Mongo, Moko Afrika): ", "Ride ops, pricing, wallet, bookings, transactions.");
-bullet("Mentorship Platform (Laravel, React, Stripe): ", "Booking, payouts, Stripe, mentor approvals.");
+bullet("Dispatcher Management System (Node.js, React.js, MongoDB, FCM): ", "Built REST APIs and a React admin dashboard for call, zone, and unit management with live monitoring and call-termination controls.");
+bullet("Pet and Fitness Platform (Node.js, MongoDB, FCM): ", "Delivered activity tracking, rewards, challenges, leaderboards, multi-pet profiles, and push notifications.");
+bullet("School Activity Management (Laravel, React.js, MySQL): ", "Built class-wise activity workflows covering submissions, approvals, scoring, and achievement points.");
+bullet("Ride Management Platform (Node.js, MongoDB, Moko Afrika): ", "Implemented ride operations, vehicle management, destination/airport/hotel pricing, wallet, bookings, and transactions.");
+bullet("Mentorship Platform (Laravel, React.js, Stripe): ", "Developed booking, scheduling, payouts, Stripe payments, and mentor approval workflows.");
+
+header("Independent Products");
+bullet("Chrome Extensions (6 live on Chrome Web Store): ", "Lock Website - 500+ installs, privacy-focused site locking with SHA-256 encryption, per-tab sessions, and subdomain matching; Custom Tab Wallpaper, SiteSwift Speed Audit, Indian Fake Filler, Remindy, and Yogi Adityanath New Tab - 200+ installs each.");
+bullet("Android Apps (Google Play): ", "Mathify - maths practice with quizzes and progress tracking; English Set Go - English learning via Hindi with 12 tenses, 11,000+ verbs, and 8,000+ phrases.");
+bullet("Web Apps: ", "Typing Master - touch typing tutor with structured lessons, seven practice modes, live WPM and accuracy tracking, and browser-based progress persistence.");
+bullet("Windows Tools: ", "PC Deep Cleaner - one-click 7-zone junk cleaner; UserCleanup - one-click Windows account remover; both portable with no installation.");
 
 header("Education");
 body("Bachelor of Computer Applications (BCA), 2019 - 2022.");
-
-header("Links");
-bullet("Portfolio: ", "https://edevsuraj.github.io/explore-our-apps-and-extensions/ | Store: 6 extensions | Play: Mathify, English Set Go");
-bullet("Contact: ", "+91 8112773132 | edev.suraj@gmail.com | Noida, Sector 62, UP");
 
 doc.end();
 stream.on("finish", () => {
